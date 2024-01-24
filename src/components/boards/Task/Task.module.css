@@ -1,0 +1,38 @@
+.taskContainer {
+    width: 250px;
+    min-height: 120px;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.taskContainer__title {
+    font-size: 22px;
+    word-wrap: break-word;
+}
+
+.taskContainer__description {
+    min-height: 50px;
+    word-wrap: break-word;
+}
+
+.taskContainer__buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+}
+
+.input {
+    max-width: 245px;
+    min-width: 245px;
+    margin-bottom: 5px;
+    
+}
+
+.textArea {
+    min-width: 248px;
+    max-width: 248px;
+    max-height: 130px;
+}
